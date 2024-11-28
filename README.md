@@ -38,6 +38,12 @@ void setup() {
 PSG.tone_out(A, NOTE_C4);
 ```
 
+音を止めるためには以下の関数を使用します．
+
+```cpp
+PSG.tone_mute(A);
+```
+
 # English
 
 This library controls AY-3-8910 simply.  
@@ -72,4 +78,10 @@ The following is an example of outputting C4 from channel A.
 
 ```cpp
 PSG.tone_out(A, NOTE_C4);
+```
+
+To stop sound, use function shown below.
+
+```cpp
+PSG.tone_mute(A);
 ```
